@@ -39,3 +39,13 @@ Resource: OWASP Top 10 for LLM Applications v1.1 - https://genai.owasp.org/llmri
 Anonymization irreversibly alters personal data so that the individual can no longer be identified directly or indirectly by any party, removing the data entirely from the scope of data protection law. In contrast, pseudonymization replaces identifying fields with artificial identifiers or keys, allowing re-identification with supplementary information. Pseudonymized data remains subject to data protection regulations because the individual is still indirectly identifiable.
 
 Resource: Article 29 Working Party Opinion 05/2014 on Anonymisation Techniques - https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf
+
+## Misconception in My Track
+
+A common wrong belief about IPv6 is that it is merely an unnecessary numerical extension of IPv4 whose only purpose is preventing address depletion without offering any architectural improvements. The correct understanding is that IPv6 natively eliminates the security risks and configuration bottlenecks of Network Address Translation (NAT), provides built-in IPsec support, streamlines packet processing, and introduces stateless address autoconfiguration (SLAAC). This is explicitly proven in Section 2 (Design Goals) and Section 4 of the official specification.
+
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://datatracker.ietf.org/doc/html/rfc8200
+
+## Open Question
+
+How can stateless address autoconfiguration (SLAAC) security be further hardened against rogue router advertisements in enterprise IPv6 environments?
